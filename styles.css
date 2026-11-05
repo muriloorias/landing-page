@@ -1,0 +1,12 @@
+html { scroll-behavior: smooth; }
+section { scroll-margin-top: 70px; }
+
+body { font-family: "Poppins", sans-serif; }
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #00b4db);
+}
+
+.card { transition: transform 0.2s; }
+.card:hover { transform: translateY(-6px); }
